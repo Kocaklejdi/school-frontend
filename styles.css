@@ -1,0 +1,58 @@
+.formContainer{
+    position: absolute;
+    top:32px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+p{
+    font-weight: bold;
+}
+.studentWithGrades{
+    height: 4rem;
+    width: 32rem;
+    background-color: lightblue;
+    border: 2px solid cadetblue;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+.courseNameDisplay{
+    font-size: x-large;
+    font-weight: bold;
+    align-self: center;
+    text-transform: capitalize;
+}
+.courseContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
