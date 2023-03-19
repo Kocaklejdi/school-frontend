@@ -42,6 +42,11 @@ function getCourseWithStudentNamesByID(id){
       }
 
       studentNameAndGradesHolder.appendChild(studentGrades);
+      studentNameAndGradesHolder.value = element.id;
+      studentNameAndGradesHolder.onclick = () =>{
+        console.log(studentNameAndGradesHolder.value)
+        //window.location.href='index.html';
+      }
       return studentNameAndGradesHolder 
     })
 

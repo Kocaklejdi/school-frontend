@@ -8,23 +8,34 @@
     <title>School</title>
   </head>
   <body>
-    <button id="createCourseButton">Create new course</button>
+    <div id="buttonHolder">
+    </div>
     <div class="formContainer" id="formContainer">
-    <form class="form" id="form">
-      <p>Create new course</p>
-      <button type="submit">Submit</button>
-      <label>Course name</label>
-      <input type="text" placeholder="Enter Course Name" id="formCourseInput">
-      <div id="formCheckBoxes">
-
-      </div>
-
-    </form>
+      <form class="form" id="form">
+        <p id="creationTitle">Create new course</p>
+        <button type="submit">Submit</button>
+        <label>Course name</label>
+        <input type="text" placeholder="Enter Course Name" id="formCourseInput">
+        <div id="formCheckBoxes"></div>
+      </form>
+    </div>
+    <div class="studentFormContainer" id="studentFormContainer">
+      <form class="form" id="studentForm">
+        <p>Add new student</p>
+        <button type="submit">Submit</button>
+        <label>Student name</label>
+        <input type="text" placeholder="Enter Student Name" id="formStudentInput">
+      </form>
     </div>
     <br/>
     <br/>
-    <div id="courses" class="studentsContainer">
-      
+    <div id="contentHolder">
+      <h1>Students</h1>
+      <div id="students" class="studentsContainer">
+      </div>
+      <h1>Courses</h1>
+      <div id="courses" class="studentsContainer">
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
