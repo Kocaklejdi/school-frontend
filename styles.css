@@ -79,3 +79,20 @@ p{
     flex-direction: row;
     gap:4rem;
 }
+.studentWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.studentNameHolder{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrapperall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

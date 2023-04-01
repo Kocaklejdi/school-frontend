@@ -8,9 +8,25 @@
     <title>Course</title>
 </head>
 <body>
-    <button>Add new student</button>
+    <button id="addNewCourse">Add new student</button>
     <br/>
+    <div class="formContainer" id="addNewCourseForm">
+      <form class="form" id="form">
+        <p>Add students to course</p>
+        <div id="formCheckBoxes"></div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     <div id="courseContainer"></div>
+    <div class="studentFormContainer" id="studentFormContainer">
+        <form class="form" id="studentForm">
+          <p>Add new student</p>
+          <button type="submit">Submit</button>
+          <label>Student name</label>
+          <input type="text" placeholder="Enter Student Name" id="formStudentInput">
+          <div id="formCheckBoxesCourses"></div>
+        </form>
+      </div>
     <script src="course.js"></script>
 </body>
 </html>
